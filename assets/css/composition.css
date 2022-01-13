@@ -35,6 +35,10 @@ main {
     margin: 0 auto;
 }
 
+img{
+    max-width: 100%;
+}
+
 main#project,
 main#blogpost {
     max-width: 80ch;
