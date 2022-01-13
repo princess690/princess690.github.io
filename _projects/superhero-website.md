@@ -29,4 +29,4 @@ ik heb veel verbeter punten en moet hard werken maar als voort blijf doen en bli
 
 ## Conclusie
 
-alnog had ik een flut superheld, was het een beetje raar en had ik veel te klagen was het toch een leuk project. En ik vond het spel oprecht leuk. in het algemeen was mijn project cava en ik vond dat goed. 
+Alnog had ik een flut superheld, was het een beetje raar en had ik veel te klagen was het toch een leuk project. En ik vond het spel oprecht leuk. In het algemeen was mijn project cava en ik vond dat goed. 
