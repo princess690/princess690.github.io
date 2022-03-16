@@ -4,7 +4,7 @@ title:  "snake"
 
 ## Oorzaak
 
-Als kennis making spel liet meneer Van Battle ons een spel spelen genaamd "Superfight". We speelde twee rondes. Ik verloor elke keer met de rotste superheld. En dan kwam het nieuws, het slechtste nieuws ooit. Wij moesten een website maken over je superheld. En mijn superheld was een slang zonder handen en met een dolfijn als hulpje. ik probeerde mijn best maar het beste dat ik kon verzinnen als naam was "Snake" en voor de dolfijn "Flipper"
+Als kennis making spel liet meneer Van Battle ons een spel spelen genaamd "Superfight". We speelde twee rondes. Ik verloor elke keer met de rotste superheld. En dan kwam het nieuws, het slechtste nieuws ooit. Wij moesten een website maken over je superheld. En mijn superheld was een slang zonder handen en met een dolfijn als hulpje. ik probeerde mijn best maar het beste dat ik kon verzinnen als naam was "Snake" en voor de dolfijn "Flipper". Ik heb alles dat ik over html en css weet in deze periode geleerd.
 
 ![huilende emoji omdat ik de rotste held ooit heb.](../assets/images/Huilen.jpg)
 
