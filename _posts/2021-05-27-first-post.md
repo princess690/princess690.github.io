@@ -11,14 +11,17 @@ Mermaid support is een extension van Visual Studio Code. Het helpt je om diagram
 ## hoe installeer je het
 
 Om dit te downloaden ga je naar visual studio code en druk je op extensions.
+
 ![afbeelding van waar het icoon van extensions staat in Visual Studio Code.](../assets/images/icon-extensions.png)
 
 Als je daar eenmaal op geklikt hebt druk je op de zoekbalk bovenaan en vul je in "mermaid support". Druk op de afbeelding met de omgekeerde drietand.
+
 ![afbeelding van waar het icoon van mermaid support staat in Visual Studio Code.](../assets/images/drietand-icon.png)
 
 Als je daar eenmaal op heb geklikt druk je op "instal" en wacht je even het zou niet lang duren.
 
 ![afbeelding van waar het icoon van instal staat bij mermaid support.](../assets/images/instal-icon.png)
+
 Nu het geinstaleerd is kan je er mee aan de slag gaan.
 
 <!--hoe je mermaid support best zou gebruiken-->
