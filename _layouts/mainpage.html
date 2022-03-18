@@ -19,7 +19,7 @@ layout: default
         
             <li>
                 <a href="{{ project.url }}">
-                    <img src="/assets/images/red-snake.jpg" alt="{{project.title}} image" class="banner">
+                    <img src="/assets/images/projecten.jpg" alt="{{project.title}} image" class="banner">
                     <h3>{{ project.title }}</h3>
                 </a>
             </li>
@@ -37,7 +37,7 @@ layout: default
     
         <a href="{{ post.url }}">
             <article class="elevated-high bg-complement">
-                <img src="{{post.banner}}" alt="{{post.title}} image" class="full-bleed | banner">
+                <img src="/assets/images/blogposts.jpg" alt="{{post.title}} image" class="full-bleed | banner">
                 <h1>{{ post.title }}</h1>
                 <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d-%m-'%y" }}</time>
                 {{ post.excerpt }}

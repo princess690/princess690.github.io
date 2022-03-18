@@ -1,27 +1,32 @@
 ---
-title:  "Blogpost Voorbeeld"
+title:  "Blogpost: mermaid support"
 ---
 
-## titel 1
+## uitleg
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit nulla dignissimos corporis aspernatur laudantium eaque expedita esse blanditiis fugiat a! Magnam laboriosam incidunt cumque explicabo sit non blanditiis accusantium mollitia? 
+Mermaid support is een extension van Visual Studio Code. Het helpt je om diagrammen te maken van klassen en andere dingens die je in diagram vorm wil hebben op Visual Studio Code of Github.
 
 <!--more-->
 
-## titel 2
+## hoe installeer je het
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quas id reprehenderit culpa recusandae eligendi deleniti alias totam ducimus magnam similique excepturi tenetur molestiae, expedita libero at obcaecati et vitae.
-Laudantium ipsum commodi, excepturi impedit animi voluptatem nihil. Et, placeat iure ex soluta sequi ab dolorem deleniti nisi. Dignissimos at exercitationem reprehenderit quia ratione. Error non perferendis doloremque nam esse!
-Temporibus maxime facilis sequi ipsum porro harum! Consequatur aspernatur aut mollitia optio maxime ducimus, atque sequi eum deleniti nulla recusandae est, obcaecati fuga sunt ratione ab ipsa corporis inventore ex.
-Debitis magni sequi sunt? Sit magni dignissimos accusantium nam tenetur aliquid odio assumenda dolorem vero corporis ipsam qui quo officia itaque aspernatur fuga ducimus eum natus, dolor ea exercitationem enim.
-Nulla ipsa modi quaerat molestiae eum accusamus, soluta vero vel placeat odit consequatur corporis explicabo at minima similique, a dolorum tempore cum nihil? Voluptate esse quo sapiente accusamus ex cupiditate!
+Je moet het eerst en vooral downloaden dit doe je door naar Visual Studio Code te gaan en te drukken op extensions. 
+![afbeelding van waar het icoon van extensions staat in Visual Studio Code.](../assets/images/icon-extensions.png)
 
-## titel 3
+Als je daar eenmaal op geklikt hebt druk je op de zoekbalk bovenaan en vul je in mermaid support. Druk op de afbeelding met de omgekeerde drietand.
+![afbeelding van waar het icoon van mermaid support staat in Visual Studio Code.](../assets/images/drietand-icon.png)
 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis unde dolorum aliquid itaque, soluta ipsum iure, incidunt eveniet, ullam sunt atque! Inventore architecto porro optio placeat, fugiat illo dolores aperiam.
-Dolore eius earum, quis voluptatibus voluptas aliquam quam odio beatae nam blanditiis necessitatibus eveniet corporis facilis sapiente ipsum est laboriosam soluta! Assumenda in velit officiis unde culpa dolorem alias laborum!
-Hic aliquid assumenda maiores, temporibus iste omnis saepe repudiandae, necessitatibus repellendus quisquam quo eveniet sed vel! Quod veniam vel impedit praesentium enim accusantium, ut eum tenetur officiis! Veniam, illo corporis.
+Als je daar eenmaal op heb geklikt druk je op "instal" en wacht je even zou niet lang duren.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque distinctio qui deserunt est vitae, ipsum sunt dolor eius adipisci! Vitae aut maiores officia atque tempora facere iusto doloremque. Perferendis, voluptatem.
-Odio perspiciatis maxime molestias. Sunt facilis ut alias, quod officiis temporibus error ad odit nesciunt nostrum maxime veniam accusamus itaque iure impedit quasi explicabo placeat. Eveniet dignissimos cumque quos et?
-Tempore, officia pariatur aperiam velit voluptate minima nesciunt hic sed architecto, aliquid ea in cum, provident deleniti obcaecati ipsam sapiente. Nam dolore sapiente illo fugit velit consequuntur quam beatae autem.
+![afbeelding van waar het icoon van instal staat bij mermaid support.](../assets/images/instal-icon.png)
+Nu het geinstaleerd is kan je er mee aan de slag gaan.
+
+## hoe gebruik je het
+
+Je gebruikt het voor diagrammen te maken. wanneer je een codeblok start met "mermaid" gaat het automatisch een frame genereren die het dan brengt naar jou mermaid.js en als je dan gaat kijken in je bestand in de live server zal het er uit zien als een diagram. let op voor de pijltjes als je het niet zeker weet zoek het dan op.
+
+![afbeelding van de basis van mermaid support.](../assets/images/basis-mermaid-support.png)
+
+Deze extension kan je helpen met het visualizeren van een game die je opstelt met klassen. hier nog een afbeelding in diagram vorm van het pad die je code aflegt als je een diagram wil maken:
+
+![afbeelding van het pad die je code aflegt in diagram vorm ](../assets/images/path-die-je-code-aflegt.png)
