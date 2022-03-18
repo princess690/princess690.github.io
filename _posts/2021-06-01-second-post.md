@@ -25,4 +25,6 @@ Nu het geinstaleerd is kan je er mee aan de slag gaan.
 
 Je gebruikt het door te linken met je leraar als je dan met een vraag zit maar je kan het zelf niet oplossen dan kan je een mail sturen naar je leerkracht en hij kan dan zien wat er miss is of wat je anders zou kunnen doen. zonder een screenshot of scherm te moeten delen want hij kan er zelf aan. Dus het is eigenlijk een makkelijkere manier om een vraag te stellen als je het niet direct persoonlijk kan stellen. 
 
-Als je github classroom correct wilt gebruiken moet je wel altijd in de juiste reposetory werken. want als je dat niet doet dan is het vaak zo dat de leraar je project niet ziet en als je het dan te laat merkt dan krijg je een 0 terwijl je ze wel had gemaakt. En vergeet vooral nooit te commiten en te pushen.
+Als je github classroom correct wilt gebruiken moet je wel altijd in de juiste reposetory werken. want als je dat niet doet dan is het vaak zo dat de leraar je project niet ziet en als je het dan te laat merkt dan krijg je een 0 terwijl je ze wel had gemaakt. En vergeet vooral nooit te committen en te pushen.
+![foto van de commit knop](../assets/images/commit.png)
+![foto van de push knop](../assets/images/push.png)
