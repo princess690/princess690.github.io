@@ -6,6 +6,7 @@ title:  "Blogpost: mermaid support"
 
 Mermaid support is een extension van Visual Studio Code. Het helpt je om diagrammen te maken van klassen en andere dingens die je in diagram vorm wil hebben op Visual Studio Code of Github.
 
+<!--more-->
 <!--stap voor stap hoe je het installeer-->
 
 ## hoe installeer je het
