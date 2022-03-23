@@ -7,6 +7,7 @@ title:  "Blogpost: Github classroom"
 Github classroom is een eenvoudige manier om op github samen te werken voor educatieve redenen. de leraar maakt gewoon een groep aan en je kan beginnen. in de groep kan de leraar naar de studenten in de groep hun projecten kijken als die projecten behoren tot wat je in de groep kan zien. Zo kan je gemakkelijker kunnen werken met elkaar en samen een project maken zonder altijd je vooruitgang te laten zien.
 
 <!--more-->
+
 <!--stap voor stap hoe je het installeer-->
 ## hoe installeer je het
 
