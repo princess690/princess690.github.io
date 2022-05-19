@@ -95,7 +95,7 @@ class MonsterEscaper extends Game{
 
         
 
-        loadJSON("imagess/tiles/sheet.json", allFrames => {
+        loadJSON("/imagess/tiles/sheet.json", allFrames => {
             let frames = [];
             let spritesheet = null;
             let animation = null;
@@ -103,7 +103,7 @@ class MonsterEscaper extends Game{
             frames = [
                 allFrames[31]
             ];
-            spritesheet = loadSpriteSheet('imagess/tiles/sheet.png', frames);
+            spritesheet = loadSpriteSheet('/imagess/tiles/sheet.png', frames);
             animation = loadAnimation(spritesheet);
 
             topWalls.forEach(tile => { 
@@ -114,7 +114,7 @@ class MonsterEscaper extends Game{
             frames = [
                 allFrames[6]
             ];
-            spritesheet = loadSpriteSheet('imagess/tiles/sheet.png', frames);
+            spritesheet = loadSpriteSheet('/imagess/tiles/sheet.png', frames);
             animation = loadAnimation(spritesheet);
             
             bottomWalls.forEach(tile => { 
@@ -124,7 +124,7 @@ class MonsterEscaper extends Game{
             frames = [
                 allFrames[23]
             ];
-            spritesheet = loadSpriteSheet('imagess/tiles/sheet.png', frames);
+            spritesheet = loadSpriteSheet('/imagess/tiles/sheet.png', frames);
             animation = loadAnimation(spritesheet);
             
             leftWalls.forEach(tile => { 
@@ -134,7 +134,7 @@ class MonsterEscaper extends Game{
             frames = [
                 allFrames[22]
             ];
-            spritesheet = loadSpriteSheet('imagess/tiles/sheet.png', frames);
+            spritesheet = loadSpriteSheet('/imagess/tiles/sheet.png', frames);
             animation = loadAnimation(spritesheet);
             
             rightWalls.forEach(tile => { 

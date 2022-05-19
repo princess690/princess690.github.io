@@ -5,7 +5,7 @@ class Gold extends GameObject{
 
         // alle images die ik wil gebruiken aangegeven.
         loadJSON(
-            "imagess/coin/sheet.json",
+            "/imagess/coin/sheet.json",
              (allFrames) => {
             let frames = [];
             let spritesheet = null;
@@ -15,7 +15,7 @@ class Gold extends GameObject{
                 allFrames[36]
                 
             ];
-            spritesheet = loadSpriteSheet('imagess/coin/sheet.png', frames);
+            spritesheet = loadSpriteSheet('/imagess/coin/sheet.png', frames);
             animation = loadAnimation(spritesheet);
             this.addAnimation("goldCoin", animation);
 
