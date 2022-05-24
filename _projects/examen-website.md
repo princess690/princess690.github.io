@@ -9,7 +9,7 @@ Ik moest de opdracht maken omdat het voor het examen was. En ik gewoon eigenlijk
 <!--wat ik goed heb gedaan bij dit project-->
 ## Mijn goede punten
 
-ik had eigenlijk niet zo veel goede punten. Ik wist hoe ik mijn website wouw laten uitzien maar dat was het ook.
+Ik had eigenlijk niet zo veel goede punten. Ik wist hoe ik mijn website wouw laten uitzien maar dat was het ook.
 
 <!--wat ik slecht heb gedaan bij dit project-->
 ## Mijn slechte punten

@@ -29,7 +29,7 @@ Nu het geinstaleerd is kan je er mee aan de slag gaan.
 <!--hoe je mermaid support best zou gebruiken-->
 ## hoe gebruik je het
 
-Je gebruikt het voor diagrammen te maken. wanneer je een codeblok start met "mermaid" gaat het automatisch een frame genereren die het dan brengt naar jou mermaid.js en als je dan gaat kijken in je bestand in de live server zal het er uit zien als een diagram. let op voor de pijltjes als je het niet zeker weet zoek het dan op.
+Je gebruikt het voor diagrammen te maken. Wanneer je een codeblok start met "mermaid" gaat het automatisch een frame genereren die het dan brengt naar jou mermaid.js en als je dan gaat kijken in je bestand in de live server zal het er uit zien als een diagram. Let op voor de pijltjes als je het niet zeker weet zoek het dan op.
 
 ![afbeelding van de basis van mermaid support.](/assets/images/basis-mermaid-support.png)
 
