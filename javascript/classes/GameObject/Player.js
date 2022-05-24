@@ -12,7 +12,7 @@ class Player extends GameObject{
 
         // alle images die ik wil gebruiken aangegeven.
         loadJSON(
-            "/imagess/character/character_maleAdventurer_sheet.json",
+            "imagess/character/character_maleAdventurer_sheet.json",
              (allFrames) => {
             let frames = [];
             let spritesheet = null;
@@ -22,16 +22,17 @@ class Player extends GameObject{
                 allFrames[0]
                 
             ];
-            spritesheet = loadSpriteSheet('/imagess/character/character_maleAdventurer_sheet.png', frames);
+            spritesheet = loadSpriteSheet('imagess/character/character_maleAdventurer_sheet.png', frames);
             animation = loadAnimation(spritesheet);
             this.addAnimation("adventurer_idle", animation);
 
             frames = [
                 allFrames[24],
-                allFrames[25]
+                allFrames[25],
+                allFrames[26]
 
             ];
-            spritesheet = loadSpriteSheet('/imagess/character/character_maleAdventurer_sheet.png', frames);
+            spritesheet = loadSpriteSheet('imagess/character/character_maleAdventurer_sheet.png', frames);
             animation = loadAnimation(spritesheet);
             animation.frameDelay = 100;
             this.addAnimation("adventurer_walk", animation);
@@ -51,13 +52,12 @@ class Player extends GameObject{
         // welke image de computer moet tonen en wanneer.
         
 
-        if (keyIsDown(32) === true) {
-            this.changeAnimation("adventurer_walk");
-         }
-         else if (keyIsDown(RIGHT_ARROW, UP_ARROW, DOWN_ARROW, LEFT_ARROW )) {
-             this.changeAnimation("adventurer_walk");
+        if (this.velocity.x < 0.1 && this.velocity.x > -0.1){
+            this.changeAnimation("adventurer_idle")
+        }
+        else if (this.velocity.x != 0 ){
 
-        
+            this.changeAnimation("adventurer_walk")
         }
 
         

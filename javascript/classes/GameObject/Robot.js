@@ -5,7 +5,7 @@ class Robot extends Monster {
 
         // alle images die ik wil gebruiken aangegeven.
         loadJSON(
-            "/imagess/character/character_robot_sheet.json",
+            "imagess/character/character_robot_sheet.json",
              (allFrames) => {
             let frames = [];
             let spritesheet = null;
@@ -15,18 +15,9 @@ class Robot extends Monster {
                 allFrames[0]
                 
             ];
-            spritesheet = loadSpriteSheet('/imagess/character/character_robot_sheet.png', frames);
+            spritesheet = loadSpriteSheet('imagess/character/character_robot_sheet.png', frames);
             animation = loadAnimation(spritesheet);
             this.addAnimation("robot_idle", animation);
-
-            frames = [
-                allFrames[40],
-                allFrames[41]
-            ];
-            spritesheet = loadSpriteSheet('/imagess/character/character_robot_sheet.png', frames);
-            animation = loadAnimation(spritesheet);
-            animation.frameDelay = 50;
-            this.addAnimation("robot_walk", animation);
 
             frames = [
                 allFrames[24],
@@ -34,7 +25,7 @@ class Robot extends Monster {
                 allFrames[26]
 
             ];
-            spritesheet = loadSpriteSheet('/imagess/character/character_robot_sheet.png', frames);
+            spritesheet = loadSpriteSheet('imagess/character/character_robot_sheet.png', frames);
             animation = loadAnimation(spritesheet);
             animation.frameDelay = 100;
             this.addAnimation("robot_walk", animation);
@@ -48,8 +39,15 @@ class Robot extends Monster {
 
     Update() { 
         // fill(0,255, 0);
-        // super.Update();
-        // this.#PlayerPos = this.Player.position.copy();
+        super.Update();
+        this.PlayerPos = this.Player.position.copy();
+
+        if (keyIsDown(32) === true) {
+            this.changeAnimation("robot_idle");
+        }
+        else if (keyIsDown(DOWN_ARROW, UP_ARROW, RIGHT_ARROW, LEFT_ARROW )) {
+         this.changeAnimation("robot_walk");
+        }
 
 
         //  aangeven hoe groot de image moet zijn en die laten zien.

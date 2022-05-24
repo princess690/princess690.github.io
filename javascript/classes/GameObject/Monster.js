@@ -25,26 +25,13 @@ class Monster extends GameObject{
         this.#playerPos = value;
     }
 
-    get MoveDirection() { 
-        return this.#moveDirection;
-    }
+   
    
     Update(){
 
-        circle(0, 0, this.width);
-
-        // de bees gaan niet door de muren heen kunnen.
-        if (this.#moveDirection.magSq()== 0){
-            this.setSpeed(0);
-
-        }
-        else{
-
-            let angle = this.#moveDirection.heading();
-        angle = degrees(angle);
-
-        this.setSpeed(5, angle)
-        }
+        // circle(0, 0, this.width);
+       
+        
         this.PlayerPos = this.Player.position.copy();
 
         let direction = p5.Vector.sub(this.#playerPos, this.position);
