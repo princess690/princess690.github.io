@@ -12,7 +12,7 @@ class Player extends GameObject{
 
         // alle images die ik wil gebruiken aangegeven.
         loadJSON(
-            "imagess/character/character_maleAdventurer_sheet.json",
+            "/imagess/character/character_maleAdventurer_sheet.json",
              (allFrames) => {
             let frames = [];
             let spritesheet = null;
@@ -22,7 +22,7 @@ class Player extends GameObject{
                 allFrames[0]
                 
             ];
-            spritesheet = loadSpriteSheet('imagess/character/character_maleAdventurer_sheet.png', frames);
+            spritesheet = loadSpriteSheet('/imagess/character/character_maleAdventurer_sheet.png', frames);
             animation = loadAnimation(spritesheet);
             this.addAnimation("adventurer_idle", animation);
 
@@ -32,7 +32,7 @@ class Player extends GameObject{
                 allFrames[26]
 
             ];
-            spritesheet = loadSpriteSheet('imagess/character/character_maleAdventurer_sheet.png', frames);
+            spritesheet = loadSpriteSheet('/imagess/character/character_maleAdventurer_sheet.png', frames);
             animation = loadAnimation(spritesheet);
             animation.frameDelay = 100;
             this.addAnimation("adventurer_walk", animation);

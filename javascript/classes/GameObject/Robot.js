@@ -5,7 +5,7 @@ class Robot extends Monster {
 
         // alle images die ik wil gebruiken aangegeven.
         loadJSON(
-            "imagess/character/character_robot_sheet.json",
+            "/imagess/character/character_robot_sheet.json",
              (allFrames) => {
             let frames = [];
             let spritesheet = null;
@@ -15,7 +15,7 @@ class Robot extends Monster {
                 allFrames[0]
                 
             ];
-            spritesheet = loadSpriteSheet('imagess/character/character_robot_sheet.png', frames);
+            spritesheet = loadSpriteSheet('/imagess/character/character_robot_sheet.png', frames);
             animation = loadAnimation(spritesheet);
             this.addAnimation("robot_idle", animation);
 
@@ -25,7 +25,7 @@ class Robot extends Monster {
                 allFrames[26]
 
             ];
-            spritesheet = loadSpriteSheet('imagess/character/character_robot_sheet.png', frames);
+            spritesheet = loadSpriteSheet('/imagess/character/character_robot_sheet.png', frames);
             animation = loadAnimation(spritesheet);
             animation.frameDelay = 100;
             this.addAnimation("robot_walk", animation);

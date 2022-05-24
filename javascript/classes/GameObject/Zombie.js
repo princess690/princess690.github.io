@@ -5,7 +5,7 @@ class Zombie extends Monster{
         
         // alle images die ik wil gebruiken aangegeven.
         loadJSON(
-            "imagess/character/character_zombie_sheet.json",
+            "/imagess/character/character_zombie_sheet.json",
              (allFrames) => {
             let frames = [];
             let spritesheet = null;
@@ -15,7 +15,7 @@ class Zombie extends Monster{
                 allFrames[0]
                 
             ];
-            spritesheet = loadSpriteSheet('imagess/character/character_zombie_sheet.png', frames);
+            spritesheet = loadSpriteSheet('/imagess/character/character_zombie_sheet.png', frames);
             animation = loadAnimation(spritesheet);
             this.addAnimation("zombie_idle", animation);
 
@@ -26,7 +26,7 @@ class Zombie extends Monster{
                 allFrames[26]
 
             ];
-            spritesheet = loadSpriteSheet('imagess/character/character_zombie_sheet.png', frames);
+            spritesheet = loadSpriteSheet('/imagess/character/character_zombie_sheet.png', frames);
             animation = loadAnimation(spritesheet);
             animation.frameDelay = 100;
             this.addAnimation("zombie_walk", animation);
