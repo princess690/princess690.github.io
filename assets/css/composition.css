@@ -125,14 +125,15 @@ article>*:last-child:not(.full-bleed) {
 
 @media only screen and (min-width: 600px) { 
     main#mainpage {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 1rem;
+       
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
     }
 
     #blogposts {
-        grid-column: 1 / span 1;
-        grid-row: 1 / span 1;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
     }
 
     main>div {
