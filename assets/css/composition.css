@@ -125,18 +125,19 @@ article>*:last-child:not(.full-bleed) {
 
 @media only screen and (min-width: 600px) { 
     main#mainpage {
-       
-        grid-column: 1 / span 1;
-        grid-row: 1 / span 1;
-    }
-
-    #blogposts {
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 1rem;
     }
 
+    #blogposts {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+    }
+
     main>div {
-        grid-column: 2 / span 1;
+        
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
     }
 }
