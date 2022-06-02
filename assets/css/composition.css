@@ -141,7 +141,7 @@ article>*:last-child:not(.full-bleed) {
         grid-row: 3 / span 1;
     }
 
-    #projects {
+    #projects>ul {
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
         display: grid;
