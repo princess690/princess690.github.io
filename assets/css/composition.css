@@ -136,11 +136,23 @@ article>*:last-child:not(.full-bleed) {
         grid-template-columns: 2fr 2fr 2fr;
     }
 
+    #about {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+    }
+
+    #projects {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+/* 
     main>div {
 
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    }
+    } */
 }
