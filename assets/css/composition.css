@@ -34,6 +34,9 @@ main {
     max-width: 1100px;
     margin: 0 auto;
 }
+.elevated-medium {
+    text-align: center;
+}
 
 img{
     max-width: 100%;
@@ -126,18 +129,20 @@ article>*:last-child:not(.full-bleed) {
 @media only screen and (min-width: 600px) { 
     main#mainpage {
         display: grid;
-        grid-template-columns: 2fr;
+        
         
     }
 
     #blogposts {
         grid-column: 1 / span 1;
         grid-row: 1 / span 0;
+        grid-template-columns: 2fr;
     }
 
     main>div {
 
         grid-column: 1 / span 1;
         grid-row: 1 / span 2;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
