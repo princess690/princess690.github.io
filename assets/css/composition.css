@@ -65,13 +65,13 @@ header address {
     font-style: normal;
 }
 
-#about>*:not(.full-bleed),
+/* #about>*:not(.full-bleed),
 article>*:not(.full-bleed) {
     padding-left: 1rem;
     padding-right: 1rem;
-}
+} */
 
-#about>*:first-child:not(.full-bleed),
+/* #about>*:first-child:not(.full-bleed),
 article>*:first-child:not(.full-bleed) {
     padding-top: 1rem;
 }
@@ -79,7 +79,7 @@ article>*:first-child:not(.full-bleed) {
 #about>*:last-child:not(.full-bleed),
 article>*:last-child:not(.full-bleed) {
     padding-bottom: 1rem;
-}
+} */
 
 #about .banner,
 #blogposts article .banner {

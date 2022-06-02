@@ -11,18 +11,19 @@ collections:
         output: true
 
 defaults:
-    - scope:
-          path: "_projects"
-      values:
-          banner: "/assets/images/woods.jpg"
-          excerpt_separator: "<!--more-->"
-          layout: "project"
+    
     - scope:
           path: "_posts"
       values:
           banner: "/assets/images/woods.jpg"
           excerpt_separator: "<!--more-->"
           layout: "blogpost"
+    - scope:
+          path: "_projects"
+      values:
+          banner: "/assets/images/woods.jpg"
+          excerpt_separator: "<!--more-->"
+          layout: "project"
     - scope:
           path: ""
       values:
