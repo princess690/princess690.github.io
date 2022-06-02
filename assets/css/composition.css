@@ -132,12 +132,12 @@ article>*:last-child:not(.full-bleed) {
 
     #blogposts {
         grid-column: 1 / span 1;
-        grid-row: 1 / span 1;
+
     }
 
     main>div {
 
         grid-column: 1 / span 1;
-        grid-row: 1 / span 1;
+        grid-row: 1 / span 2;
     }
 }
