@@ -1,6 +1,6 @@
 :root {
     --color-dominant: #D3D2E4;
-    --color-complement: #90C3C8;
+    --color-complement: #72bad5;
     --color-contrast: #1F5673;
     --color-accent: #759FBC;
 }
@@ -39,7 +39,7 @@ main {
 }
 
 img{
-    max-width: 100%;
+    max-width: 10%;
 }
 
 main#project,
@@ -133,7 +133,8 @@ article>*:last-child:not(.full-bleed) {
         grid-column: 1 / span 1;
         grid-row: 1 / span 1;
         display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr;
+
     }
 
     #about {
@@ -141,7 +142,7 @@ article>*:last-child:not(.full-bleed) {
         grid-row: 3 / span 1;
     }
 
-    #projects>ul {
+    #projects {
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
         display: grid;

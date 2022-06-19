@@ -25,7 +25,7 @@ Als je daar eenmaal op heb geklikt druk je op "instal" en wacht je even het zou 
 
 Nu het geinstaleerd is kan je er mee aan de slag gaan.
 
-<!--hoe je mermaid support best zou gebruiken-->
+<!--hoe je github classroom best zou gebruiken-->
 ## hoe gebruik je het
 
 Je gebruikt het door te linken met je leraar als je dan met een vraag zit maar je kan het zelf niet oplossen dan kan je een mail sturen naar je leerkracht en hij kan dan zien wat er miss is of wat je anders zou kunnen doen. Zonder een screenshot of scherm te moeten delen want hij kan er zelf aan. Dus het is eigenlijk een makkelijkere manier om een vraag te stellen als je het niet direct persoonlijk kan stellen. 

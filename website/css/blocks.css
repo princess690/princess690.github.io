@@ -1,0 +1,21 @@
+body {
+    background-color: var(--color-dominant);
+}
+
+.box {
+    background-color: var(--color-accent);
+    --elevation: .4;
+    box-shadow: calc(4.0px * var(--elevation))
+                calc(8.0px * var(--elevation))
+                calc(8.0px * var(--elevation))
+                hsl(0deg 0% 0% / calc(0.25 + calc(0.25 * calc(1.0 - var(--elevation)))));
+}
+
+.menu-list{
+    list-style: none;
+    display:ruby;
+}
+
+.menu-link{
+    text-decoration: none;
+}

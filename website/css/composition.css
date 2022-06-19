@@ -1,0 +1,76 @@
+:root {
+    --color-dominant: #fedfd4;
+    --color-complement: #f29479;
+    --color-contrast: #be1e2d;
+    --color-accent: #ef3c2d;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.6;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+h1, h2, h3, h4 {
+    line-height: .9;
+}
+
+main {
+    padding: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+img{
+    max-width: 60%;
+}
+
+main#project,
+main#blogpost {
+    max-width: 80ch;
+}
+
+main section {
+    margin: 1rem 0;
+}
+
+.menu-list{
+    border-color: var(--color-dominant);
+    background-color: var(--color-contrast);
+}
+
+
+@media only screen and (min-width: 600px) { 
+   
+
+    #blogposts {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
+
+    #projects>ul {
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
