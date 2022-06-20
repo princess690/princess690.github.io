@@ -50,8 +50,20 @@ main section {
 }
 
 .menu-list{
+    margin: 0;
+    padding: 0;
     border-color: var(--color-dominant);
     background-color: var(--color-contrast);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    display:grid;
+    color:var(--color-dominant);
+   
 }
 
 
@@ -66,9 +78,7 @@ main section {
     }
 
 
-    #projects>ul {
-        grid-column: 1 / span 1;
-        grid-row: 3 / span 1;
+    #projecten>ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }

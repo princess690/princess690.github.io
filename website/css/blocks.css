@@ -13,9 +13,15 @@ body {
 
 .menu-list{
     list-style: none;
-    display:ruby;
+    text-align: center;
 }
 
 .menu-link{
     text-decoration: none;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
 }
